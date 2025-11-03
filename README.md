@@ -3,11 +3,11 @@
 The advanced technique that queries multiple vector databases simultaneously for richer, multi-domain answers. 
 
 Tech Stack:
-LangChain -> RAG orchestration 
-ChromaDB -> multiple vector databases
-Nomic-embed-text-v1.5 -> embeddings 
-Groq API -> Free open LLMs 
-Python + Google Colab + Hugging Face 
+1. LangChain -> RAG orchestration 
+2. ChromaDB -> multiple vector databases
+3. Nomic-embed-text-v1.5 -> embeddings 
+4. Groq API -> Free open LLMs 
+5. Python + Google Colab + Hugging Face 
 
 Why Multi-Index RAG better than Single-Index? 
 Traditional RAG has one index, one perspective.
@@ -18,10 +18,10 @@ Multi-Index RAG has multiple domain-optimized indexes (AI, ML, NLP, etc) that co
 4. +40 % Accuracy & Completeness
 
 Real-world Use cases:
-Medical Research -> merge clinical trials, patient data, drug knowlegde
-Finance -> integrate market data, company filings, reports 
-Enterprise -> unify docs, wikipedias, internal systems 
-Multi-domain AI Assistants -> handle diverse knowledge areas 
+1. Medical Research -> merge clinical trials, patient data, drug knowlegde
+2. Finance -> integrate market data, company filings, reports 
+3. Enterprise -> unify docs, wikipedias, internal systems 
+4. Multi-domain AI Assistants -> handle diverse knowledge areas 
 
 
 
